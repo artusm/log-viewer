@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "lib": [
+      "es2019",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "es6",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "noUnusedLocals": true,
+    "baseUrl": "./src",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "types": [
+      "node",
+      "inferno",
+      "jest",
+      "jest-fetch-mock"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*",
+    "node_modules/inferno/dist/index.d.ts"
+  ]
+}
